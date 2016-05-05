@@ -56,12 +56,12 @@ public class Round {
        return score;
        }
        
-       public int numberOfHolesPlayed () 
+       public int numberOfHolesPlayed (int holes) 
        {
            //Returns the number of completed holes in this round;
            
            //Should retrieve this value Player hole collection
-           return '5';
+           return holes;
        }
        
        //method 5
@@ -75,7 +75,7 @@ public class Round {
            return strokes;
        }
        
-       public int[] scoredetial()
+       public int[] scoredetial(int [] Array)
        {  /*
            *Returns the array of strokes per hole.  
            *This method gets called by the final hole's swipe-station, to print 
@@ -83,7 +83,7 @@ public class Round {
            *(which has pre-printed coupons reverse side.)
            *After this method is invoked the round object can be disposed of.
            */
-           int[] Array = {1,2,3,4};
+           
            return Array;
        }
 }

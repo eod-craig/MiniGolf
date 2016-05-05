@@ -11,7 +11,7 @@ import org.junit.Test;
    public void test() {
       Round test = new Round();
       int output = test.currentScore(3);
-      assertEquals(output, 3);
+      assertEquals(3, output);
       
    }
  }

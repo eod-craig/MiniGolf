@@ -10,8 +10,8 @@ import org.junit.Test;
  @Test
    public void test() {
       Round test = new Round();
-      int testHoles = 5;
-      int output = test.numberOfHolesPlayed();
-      assertEquals(testHoles, output);
+      
+      int output = test.numberOfHolesPlayed(3);
+      assertEquals(3, output);
    } 
  }
