@@ -44,7 +44,7 @@ public class Round {
        this.timeEnd = value;
    }
        
-       public int currentScore()
+       public int currentScore(int score)
        {
         /*Display the user's score so far (this is the number 
          *of strokes above or below par, for the holes played so far)
@@ -53,7 +53,7 @@ public class Round {
            //Display score in a custom developed messagebox.
            //Get the par value of the hole from a collection of par numbers
                   
-       return '3';
+       return score;
        }
        
        public int numberOfHolesPlayed () 
@@ -65,13 +65,14 @@ public class Round {
        }
        
        //method 5
-       public void  enterScore(int strokes)
+       public int  enterScore(int strokes)
        {
         /* Enter a score for the next hole.  
          *(Note the current design doesn't allow a player to skip holes, 
          * they must be played in order);  
          */
        //Enters the strokes from the user entered value to Collection.
+           return strokes;
        }
        
        public int[] scoredetial()
