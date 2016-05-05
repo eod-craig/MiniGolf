@@ -15,5 +15,6 @@ import org.junit.Test;
       int[] Array = test.scoredetial(ArrayTest);
       assertArrayEquals(ArrayTest, Array);
     
+      
    }
  }
