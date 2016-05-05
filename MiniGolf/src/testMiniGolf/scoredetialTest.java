@@ -12,8 +12,8 @@ import org.junit.Test;
       Round test = new Round();
       
       int [] ArrayTest = {1,2,3,4};
-      int[] Array = test.scoredetial();
-      assertArrayEquals(Array, ArrayTest);
+      int[] Array = test.scoredetial(ArrayTest);
+      assertArrayEquals(ArrayTest, Array);
     
    }
  }
